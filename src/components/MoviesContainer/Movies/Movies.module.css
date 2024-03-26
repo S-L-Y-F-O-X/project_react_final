@@ -1,0 +1,34 @@
+.main {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    background-color: #e3e3e3;
+}
+
+.darkMode {
+    background-color: #575757;
+}
+
+.leftBar {
+    width: 12%;
+    position: fixed;
+}
+
+.Movies {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 12%;
+    padding-right: 10%;
+}
+
+.rightBar {
+    width: 5%;
+    position: fixed;
+    padding-left: 90%;
+}

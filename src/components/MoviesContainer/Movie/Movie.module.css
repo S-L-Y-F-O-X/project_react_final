@@ -1,0 +1,37 @@
+.Movie {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    width: calc(20% - 10px);
+    background-color: #abaaaa;
+}
+
+.Movie img {
+    height: 77%;
+    transition: 0.4s ease-in;
+    filter: grayscale(0%);
+}
+
+.Movie img:hover {
+    filter: grayscale(100%);
+}
+
+.Movie h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 150%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Movie h3 {
+    margin-top: 0;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+}

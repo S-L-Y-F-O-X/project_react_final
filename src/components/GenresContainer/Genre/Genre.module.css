@@ -1,0 +1,31 @@
+.Genre {
+    padding-left: 10px;
+    display: flex;
+}
+
+.Genre p {
+    margin: 3px;
+    font-size: 18px;
+    display: flex;
+    user-select: none;
+}
+
+.Genre p:hover {
+    background: -webkit-linear-gradient(45deg, #87ff37, #1a7204);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Genre .badge {
+    margin: 0;
+    background-color: #2f2f2f;
+    color: white;
+    border-radius: 10px;
+    padding: 0 6px;
+    display: inline-block;
+    height: 11px;
+    font-size: 10px;
+    user-select: none;
+}
